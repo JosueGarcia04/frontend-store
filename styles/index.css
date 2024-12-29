@@ -53,3 +53,25 @@ h3{
 }
 
 
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header__logo{
+    margin: 3rem 0;
+}
+.navegacion{
+    background-color: var(--primOscuro);
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.navegacion__enlaces{
+    color: var(--white);
+    font-size: 3rem;
+}
+
+.navegacion__enlaces--activo, .navegacion__enlaces:hover{
+    color: var(--sec);
+}
